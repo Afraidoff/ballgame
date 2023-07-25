@@ -97,7 +97,6 @@ def main():
     window.update()
     platform = Platform(canvas)
     ball = Ball(canvas,platform)
-    print(canvas.winfo_width())
     while True:
         ball.draw()
         platform.draw()
